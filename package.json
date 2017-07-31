@@ -1,0 +1,37 @@
+{
+  "name": "with-mutation-state",
+  "version": "0.9.0",
+  "description": "A HOC wrapper for Apollo GraphQL mutation provides loading and error props.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./src -d ./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lhz516/with-mutation-state.git"
+  },
+  "keywords": [
+    "apollo",
+    "graphql",
+    "react",
+    "mutate",
+    "mutation",
+    "loading",
+    "hoc"
+  ],
+  "author": "Hanz Luo",
+  "license": "MIT",
+  "dependencies": {
+    "hoist-non-react-statics": "^2.x.x"
+  },
+  "peerDependencies": {
+    "react": ">14.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1"
+  }
+}
