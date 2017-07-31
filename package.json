@@ -1,7 +1,7 @@
 {
-  "name": "with-mutation-state",
-  "version": "0.9.0",
-  "description": "A HOC wrapper for Apollo GraphQL mutation provides loading and error props.",
+  "name": "react-apollo-mutation-state",
+  "version": "0.9.1",
+  "description": "A React HOC for Apollo GraphQL mutation provides loading & error props.",
   "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lhz516/with-mutation-state.git"
+    "url": "https://github.com/lhz516/react-apollo-mutation-state.git"
   },
   "keywords": [
     "apollo",
