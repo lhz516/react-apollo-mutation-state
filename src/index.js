@@ -23,6 +23,10 @@ export default (options = { name: 'mutation' }) => {
       get error() { return this.state.error }
 
       render() {
+        if (this.props[options.name]) {
+          throw new Error(`Duplicated props named '${options.name}'`);
+        }
+
         const mutation = {
           set: this.set,
           loading: this.loading,
