@@ -39,7 +39,7 @@ mutation.set({
 
 ### Example
 
-```jsx
+```js
 import mutationState from 'react-apollo-mutation-state';
 import { graphql } from 'react-apollo';
 
