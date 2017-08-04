@@ -1,6 +1,6 @@
 {
   "name": "react-apollo-mutation-state",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React HOC for Apollo GraphQL mutation, provides loading & error as props.",
   "main": "./lib/index.js",
   "scripts": {
