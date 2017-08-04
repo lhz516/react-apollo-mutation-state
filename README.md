@@ -1,6 +1,6 @@
 # React Apollo Mutation State
 
-A React higher order component for Apollo GraphQL mutation, provides mutation loading state as props.
+A React HOC for Apollo GraphQL mutation, provides loading & error as props.
 
 ### Usage
 Install from NPM
@@ -78,3 +78,17 @@ const withMutationState = mutationState();
 
 export default withMutationState(withData(MyComponent));
 ```
+
+### FAQ
+
+#### Why use this HOC?
+
+To set loading/error state in a GraphQL mutation container and get loading/error state as props in a UI component so that the UI component can be stateless.
+
+#### Can I use Redux to achieve the same thing?
+
+Yes. However in many cases, one loading (submitting/saving) state is only for a particular button or component. Saving one loading state in Redux store for a single button is kinda too complicated and takes time to modify. So let HOC to make it easy.
+
+#### What's the future of this project?
+
+Currently `react-apollo-mutation-state` only handles loading & error state of mutation, but it definitely can be more. There might be more interactions about mutation using this HOC in the future.

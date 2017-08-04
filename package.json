@@ -1,7 +1,7 @@
 {
   "name": "react-apollo-mutation-state",
-  "version": "0.9.2",
-  "description": "A React HOC for Apollo GraphQL mutation, provides loading & error props.",
+  "version": "1.0.0",
+  "description": "A React HOC for Apollo GraphQL mutation, provides loading & error as props.",
   "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -26,7 +26,8 @@
     "hoist-non-react-statics": "^2.x.x"
   },
   "peerDependencies": {
-    "react": ">14.0.0"
+    "react": ">=15.5.0",
+    "prop-types": ">=15.5.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
